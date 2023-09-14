@@ -1,0 +1,22 @@
+<script>
+
+for (let x=1; x<=9; x++)
+{
+let pattern = " ";
+
+//for spaces, space=s
+for(let s=1; s <= 9 - x; s++)
+{
+pattern += " ";
+}
+
+// numbers=n
+for(let n = 1; n <= x; n++)
+{
+pattern += n;
+}
+
+document.write(pattern);
+}
+
+</script>

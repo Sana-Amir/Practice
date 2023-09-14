@@ -1,0 +1,33 @@
+<script>
+
+var x,y,z,op;
+x = prompt("value for x");
+y = prompt("value for y");
+op = prompt("operater");
+
+if (op=="+")
+{
+ z=eval(x)+eval(y);
+document.write(x + "+" + y + "=" + z);
+}
+else if (op=="-")
+{
+z=x-y;
+document.write(x + "-" + y + "=" + z);
+}
+else if (op=="*")
+{
+z=x*y;
+document.write(x + "*" + y + "=" + z);
+}
+else if (op=="/")
+{
+z=x/y;
+document.write(x + "/" + y + "=" + z);
+}
+
+else
+{ document.write( " wrong operater" );
+}
+	
+</script>

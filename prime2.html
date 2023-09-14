@@ -1,0 +1,27 @@
+<script>
+
+/* Display 1 to 100 Prime numbers */
+
+for( let n=1; n<=100; n++)
+{
+  x = false
+for(let i=2; i<=n/2; i++)
+{
+  if (n % i == 0)
+  {
+   x=true;
+   break;
+  }
+}
+
+if (x == false)
+{
+document.write(n + "No. is prime!<br>");
+}
+else
+{
+document.write(n + "No. is not prime!<br>");
+}
+}
+
+</script>

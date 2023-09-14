@@ -1,0 +1,72 @@
+<script>
+
+var role_number, name ;
+role_number = prompt("role_number");
+name = prompt("name");
+document.write( " Role No.  " + role_number + "<br>" + "   Name: " +  name + "<br>");
+
+document.write("<br>");
+
+
+var Urdu, Maths, Eng;
+Urdu = prompt("Marks for Urdu: ");
+document.write( "Urdu" + " = " + Urdu  + "<br>");
+Maths = prompt("Marks for Maths: ");
+document.write( "Maths" + " = " + Maths  + "<br>");
+Eng = prompt("Marks for Eng: ");
+document.write( "Eng" + " = " + Eng  + "<br>");
+
+document.write("<br>");
+
+Total_Marks = eval(Urdu) + eval(Maths) + eval(Eng);
+document.write("Total Marks" + " = " + Total_Marks + "<br>");
+Average_Marks = Total_Marks / 3;
+document.write("Average Marks" + " = " + Average_Marks + "<br>");
+
+document.write("<br>");
+
+if ( Average_Marks >= 50)
+{ document.write( "Pass" );
+}
+else 
+{ document.write ( "Fail" );
+}
+
+document.write("<br>");
+
+if ( Average_Marks >= 90) 
+{ document.write( " Grade :" + " A ");
+}
+else if ( Average_Marks >= 80 )
+{ document.write( " Grade :" + " B ");
+}
+else if ( Average_Marks >= 70 )
+{ document.write( " Grade :" + " C ");
+}
+else if ( Average_Marks >= 60 )
+{ document.write( " Grade :" + "D ");
+}
+else if ( Average_Marks >= 50 )
+{ document.write( " Grade :" + " E ");
+}
+else 
+{ document.write( " Grade :" + " F ");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
