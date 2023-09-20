@@ -1,5 +1,5 @@
 x = 2
-y = 6
+y = 8
 z = x + y
 j = x - y
 m =  x * y
