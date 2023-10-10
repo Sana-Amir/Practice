@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Percentage Calculator</title>
+</head>
+<body>
+<form onsubmit="abc()">
+    <label for="tm">Total Marks</label>
+    <input type="number" name="tm" id="stdtm">
+    <label for="om">Obtained Marks</label>
+    <input type="number" name="om" id="stdom">
+    <button type="submit">CALCULATE</button>
+</form>
+
+<script>
+    function abc() {
+        let std_tm_G10 = document.querySelector("#stdtm").value;
+        let std_om_G10 = document.querySelector("#stdom").value;
+        res = (std_om_G10 / std_tm_G10) * 100
+        document.write("You have got" + res + "%")
+
+    }
+</script>
+
+</body>
+</html>
